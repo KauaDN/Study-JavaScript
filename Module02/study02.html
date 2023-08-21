@@ -1,0 +1,51 @@
+<html>
+<body>
+    <script>
+    // var = variavel global
+    // let = variavel no escopo (Existe dentro das chaves)
+    // const = constante(Não tem como mudar, se mantem constante sempre)
+    /*
+    var nome = "Kauã";
+
+    nome = "João"
+
+    console.log("Nome: " + nome);
+
+    {
+        let idade = 20;
+        console.log("Idade: " + idade)
+    }   
+    */
+
+    // const nome = "Guilherme";
+    
+    var Nome = "Kauã";
+    var Cpf = "100100500200"
+    var Numero = "11988552384"
+    var mostrar = false;
+    var calcular = 5 + 5;
+    const erro01 = "001";
+
+    const textoNome = "Nome: " + Nome;
+
+
+    if (mostrar == true){
+        console.log(textoNome)
+        console.log("Cpf: " + Cpf)
+        console.log("Numero: " + Numero)
+        console.log("5 + 5: " + calcular)
+    }   else if (mostrar == false){
+        console.log("Erro " + erro01 + " | Usuario não encontrado no Banco de Dados")
+        let Nome = "Inexistente";
+        let Cpf = "Inexistente"
+        let Numero = "Inexistente"
+
+        console.log("Nome: " + Nome);
+        console.log("Cpf: " + Cpf);
+        console.log("Numero: " + Numero);
+    }
+
+
+    </script>
+</body>
+</html>
