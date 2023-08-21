@@ -1,0 +1,41 @@
+<html>
+<body>
+    <script>     
+        function testes(nome,idade){ // (Nome) = Parametro, ou seja, toda vez que for chamada você pode adicionar um valor que substituira este parametro.
+            console.log("O nome é "+nome);
+            console.log("A idade é "+idade);
+            console.log("--------------")
+        }
+
+        testes("Guilherme","20");
+        testes("João", "30");
+
+
+
+        function testes2(){
+            //Tudo que aqui pertence será executado quando a função for chamada.
+            console.log(nome)
+        }
+
+        function pegarNome(nome){
+            return nome; // A partir do momento que exista um return a função para ali
+        }
+
+        var nome = pegarNome("Rodrigo Faro");
+
+        testes2();
+
+        function VorF(number){
+            if (number >= 0){
+                console.log("Numero é Positivo");
+            } else {
+                console.log("Numero é Negativo");
+            }
+
+        }
+
+        VorF(-5);
+
+    </script>
+</body>
+</html>
