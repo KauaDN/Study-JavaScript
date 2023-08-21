@@ -1,2 +1,0 @@
-# Study-JavaScript
-Introduction JavaScript
